@@ -1,0 +1,49 @@
+REST
+- Representational State Transfer
+- Http URI를 통해 자원을 명시하고 Http Method를 통해 자원에 대한 CRUD를 적용
+- REST 형식을 따른 시스템을 Restful이라고 부름
+
+🎁 GraphQL
+https://grapql.org/ 
+
+
+Youtube API 활용한 클론코딩
+1. 구글에서 Youtube API 검색
+
+2. APIs Console로 이동
+
+3. 프로젝트 만들기 -> 프로젝트명 작성 후 만들기
+
+4. 왼쪽 메뉴 -> API 및 서비스 -> 대시보드
+
+5. 'API 및 서비스 사용 설정' 버튼을 클릭
+
+6. 'YouTube Data API v3' 사용
+
+7. 화면 우측에 '사용자 인증 정보 만들기' 버튼클릭
+
+8. 왼쪽 메뉴에 '사용자 인증 정보'를 선택 후 상단의 '+사용자 인증 정보 만들기'
+
+9. API 키 생성후 키 복사
+    AIzaSyDdMqEiq0XfP_ejsSkw8iEgKxfwX1nWxQg
+
+🎁 show code
+    여러가지 언어에 대한 지원을 확인
+3. HTTP
+    GET https://youtube.googleapis.com/youtube/v3/search?maxResults=25&q=%EA%B3%BD%ED%8A%9C%EB%B8%8C&key=[YOUR_API_KEY] HTTP/1.1
+
+    GET https://youtube.googleapis.com/youtube/v3/search?maxResults=25&q=%EA%B3%BD%ED%8A%9C%EB%B8%8C&key=AIzaSyDdMqEiq0XfP_ejsSkw8iEgKxfwX1nWxQg HTTP/1.1
+
+Authorization: Bearer [YOUR_ACCESS_TOKEN]
+Accept: application/json
+
+
+GET GET https://youtube.googleapis.com/youtube/v3/videos?maxResults=25&key=AIzaSyDdMqEiq0XfP_ejsSkw8iEgKxfwX1nWxQg HTTP/1.1
+ HTTP/1.1
+
+GET GET https://youtube.googleapis.com/youtube/v3/videos?maxResults=25&key=[YOUR_API_KEY] HTTP/1.1
+HTTP/1.1
+
+Authorization: Bearer [YOUR_ACCESS_TOKEN]
+Accept: application/json
+

@@ -1,0 +1,40 @@
+$pink: #f48fb1;
+$blue: #4dabf7;
+$gray: #adb5bd;
+
+.Button {
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    height: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+
+    &.large {
+        height: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.3rem;
+    }
+
+    &.medium{
+        height: 2.3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+
+    &.small{
+        height: 1.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 0.8rem;
+    }
+
+    
+}

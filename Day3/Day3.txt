@@ -1,0 +1,10 @@
+폼트오쏨 설치
+yarn add @fortawesome/fontawesome-free
+
+폰트오쏨 리액트 적용
+https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react
+
+<i class="fas fa-kiss"></i>
+
+index.js
+import '@fortawesome/fontawesome-free/js/all.js';
